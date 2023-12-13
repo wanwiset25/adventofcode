@@ -1,0 +1,13 @@
+day 3
+- feels unstructured when writing code, keep forgetting where I am
+- should clearly define logic steps before start writing, aka take notes
+- use more functions to simplify repetition
+  - in today's task, traversing adjacent is a pain, causes many typo bugs
+  - better use function(i,j) and use for (i,j) in list of <adjacent i,j> B
+  
+day4
+- good noting steps before starting to code
+- should've more details on parsing, data struct used to store values
+- timer to keep track of time used? but I dont really speed run, more like coding and snoozing
+- forgot to write down steps for part 2
+
