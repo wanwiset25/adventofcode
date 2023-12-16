@@ -11,3 +11,13 @@ day4
 - timer to keep track of time used? but I dont really speed run, more like coding and snoozing
 - forgot to write down steps for part 2
 
+day5 after part1
+- spend too much time trying to collapse mapping (optimization)
+- didn't parse input in the beginning lead to forgetting then using example input to get a wrong answer and waste a lot of time debugging
+day5 after part 2
+- don't know what to say, it was hard, very time consuming (3-4 days using time after work)
+- many traps and corner cases to consider, changed approach ~3 times
+- best decision: using start_end to better visualize data
+- worst decision: trying to traverse by i,j pointers instead of looping over all j's
+- improvement: maybe using more abstraction will help? implement more comparison functions like check_overlap, remove_overlap_region,
+- but should be careful, on over abstracting..
