@@ -21,3 +21,6 @@ day5 after part 2
 - worst decision: trying to traverse by i,j pointers instead of looping over all j's
 - improvement: maybe using more abstraction will help? implement more comparison functions like check_overlap, remove_overlap_region,
 - but should be careful, on over abstracting..
+
+day6
+- moved input reading to parse function for better readability
