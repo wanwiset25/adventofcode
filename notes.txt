@@ -24,3 +24,7 @@ day5 after part 2
 
 day6
 - moved input reading to parse function for better readability
+
+day7
+- pretty cool part 2 solution
+- good choice of struct and sorting on part 1 makes it easy to implement part 2 (using structure instead of messy coding)
