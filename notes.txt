@@ -28,3 +28,9 @@ day6
 day7
 - pretty cool part 2 solution
 - good choice of struct and sorting on part 1 makes it easy to implement part 2 (using structure instead of messy coding)
+
+day8
+- having some trouble with for 'k,v := range(map)' and for 'i,e := range(slice)' the 'v' and 'e' are copy values and will not change the parent object when using assignment
+- for maps, use the pattern map[string]*struct pointer then the 'v' will work
+- for slice, need to be mindful to use slice[i] for assignments. Or use 'i, _ := range(slice)' and ref everything with 'i'
+- part 2 turns out to be a math problem and I got spoiled while looking for debugging tips...
