@@ -248,6 +248,7 @@ func new_transform_range(input []start_end, mapping []start_end) []start_end {
 	output = append(output, remain...)
 	return output
 }
+
 func clean_remaining_input(input []start_end, mapping []start_end, remove []start_end) []start_end {
 	// fmt.Println("clean_input", input, remove, mapping )
 	remaining_total := []start_end{}
